@@ -17,7 +17,8 @@ NSLocationWhenInUseUsageDescription   String     YES
 
 2.调用相应的方法获取对应信息
 
-      //获取坐标
+获取坐标
+      
     - (void)getLocation {
         [[DNLocationManager shareLocation] getLocationCoordinate:^(CLLocationCoordinate2D locationCorrrdinate) {
            NSLog(@"经度:%f  纬度:%f",locationCorrrdinate.latitude, locationCorrrdinate.longitude);
