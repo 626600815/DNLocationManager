@@ -5,8 +5,11 @@
 
 ###开启定位功能需要的配置
 1.添加依赖库CoreLocation.framework
+
 2.配置plist文件添加两个字段（注意：类型要选择String，ios8中类型选择boolean会出现设置界面崩溃的情况）
+
 NSLocationAlwaysUsageDescription      String     YES
+
 NSLocationWhenInUseUsageDescription   String     YES
 
 #使用说明
