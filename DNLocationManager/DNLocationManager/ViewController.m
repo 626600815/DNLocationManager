@@ -25,6 +25,7 @@
     [self getCity];
 }
 
+
 //获取坐标
 - (void)getLocation {
     [[DNLocationManager shareLocation] getLocationCoordinate:^(CLLocationCoordinate2D locationCorrrdinate) {
